@@ -12,7 +12,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Border BorderBrush="Black" BorderThickness="0, 0, 1, 0">
+        <Border BorderBrush="Gray" BorderThickness="0, 0, 0, 1">
             <TextBlock Grid.Row="0" Margin="10" Width="320" HorizontalAlignment="Left" 
                        Text="Вводьте в кожен пропуск числа, вони сформують масив"/>
         </Border>
@@ -21,6 +21,9 @@
         <TextBox x:Name="thrdarrayInput" Grid.Row="1" Margin="90, 10, 10, 10" Width="35" HorizontalAlignment="Left"/>
         <TextBox x:Name="frtharrayInput" Grid.Row="1" Margin="130, 10, 10, 10" Width="35" HorizontalAlignment="Left"/>
         <TextBox x:Name="fiftharrayInput" Grid.Row="1" Margin="170, 10, 10, 10" Width="35" HorizontalAlignment="Left"/>
-        <Button x:Name="saveArray" Grid.Row="1" Margin="210, 10, 10, 10" Width="100" HorizontalAlignment="Left" Click="saveArray_Click">Зберегти масив</Button>
+        <Button x:Name="saveArray" Grid.Row="1" Margin="210, 10, 10, 10" Width="100" 
+				HorizontalAlignment="Left" Click="saveArray_Click">Зберегти масив</Button>
+		<Button x:Name="loadArray" Grid.Row="1" Margin="320, 10, 10, 10" Width="100" HorizontalAlignment="Left"
+				Click="loadArray_Click">Загрузити масив</Button>
     </Grid>
 </Window>
