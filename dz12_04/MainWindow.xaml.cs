@@ -2,6 +2,8 @@
 using System.IO;
 using System.Windows;
 
+//2 та 3 практичні
+
 namespace dz12_04
 {
     public partial class MainWindow : Window
